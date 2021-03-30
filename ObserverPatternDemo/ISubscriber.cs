@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ObserverPatternDemo
 {
-    interface ISubject
+    interface ISubscriber
     {
-        void Subscribe(Observer observer);
-        void Unsubscribe(Observer observer);
-        void Notify();
+        void Update();
     }
 }
